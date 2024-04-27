@@ -1,43 +1,42 @@
 <template>
-  <!-- Inzio About Us -->
-  <section id="about-us">
+  <!-- Inizio About-us Central -->
+  <section id="central">
         <div class="container mt-5">
             <div class="row">
                 <div class="col">
                     <p class="we-are-megaone">We are megaone company</p>
-                    <h3>We are making ideas</h3>
-                    <h3>better for everyone</h3>
-                    <p class="about-us-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
+                    <h3>Robust Design and</h3>
+                    <h3>Development Solutions</h3>
+                    <p class="central-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
                     <a href="#" class="btn px-4 mt-4 border-2">Learn More</a>
                 </div>
                 <div class="col">
-                    <img src="@/assets/vector-art-2.png" alt="company foto">                  
+                    <img src="@/assets/vector-art-4.png" alt="company foto">                  
                 </div>
             </div>
         </div>
     </section>
-    <!-- Fine About Us -->
+    <!-- Fine About us Central -->
 </template>
-
 
 <script>
 
 </script>
 
-
 <style scoped>
-#about-us {
+#central {
     padding: 80px 180px;
+    background-color: rgb(245, 247, 247);
 }
 
-#about-us h3 {
+#central h3 {
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 40px;
     position: relative;
 }
 
-#about-us p {
+#central p {
     font-family: 'Roboto', sans-serif;
     
     color: rgb(63, 61, 61);
@@ -49,22 +48,22 @@
     font-size: 20px;
 }
 
-.about-us-text {
+.central-text {
     font-weight:lighter;
 }
 
-#about-us a {
+#central a {
     font-family: 'Roboto', sans-serif;
-    background-color: #f547d8;
+    background-color:#0dcaf0;
     color: white;
     border-radius: 30px;
 }
 
-#about-us a:hover {
-    background-color: #0dcaf0;
+#central a:hover {
+    background-color: #f547d8;
 }
 
-#about-us img {
+#central img {
     width: 100%;
 }
 </style>
